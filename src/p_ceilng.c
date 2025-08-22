@@ -38,6 +38,10 @@
 #include "s_sound.h"
 #include "sounds.h"
 
+#ifdef PSX
+#include <stddef.h>
+#endif
+
 // the list of ceilings moving currently, including crushers
 ceilinglist_t *activeceilings;
 

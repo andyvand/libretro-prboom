@@ -40,6 +40,10 @@
 #include "s_sound.h"
 #include "sounds.h"
 
+#ifdef PSX
+#include <stddef.h>
+#endif
+
 ///////////////////////////////////////////////////////////////////////
 //
 // Plane (floor or ceiling), Floor motion and Elevator action routines

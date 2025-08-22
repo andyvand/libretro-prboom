@@ -49,6 +49,10 @@
 #include "m_bbox.h"
 #include "lprintf.h"
 
+#ifdef PSX
+#include <stddef.h>
+#endif
+
 static mobj_t *current_actor;
 
 typedef enum
